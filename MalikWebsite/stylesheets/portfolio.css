@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+
+.navbar-color {
+    background-color: #ffd300;
+    background-image: linear-gradient(white, #ffd300 75%);
+}
+
+.fa-globe-americas {
+    font-size: 50px;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.jumbotron {
+    background: url("https://media.giphy.com/media/1lRrsraIsEYRW/source.gif") no-repeat center center fixed;
+    background-size: cover;
+    padding: 24em;
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.jumbo-font {
+    font-size: 200px;
+}
+
+.canvas-background {
+    background: url("../images/") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-men {
+    height:700px;
+    width: 100%;
+}
+
+.men-bottom-left {
+    position: absolute;
+    bottom: 110px;
+    left: -90px;
+}
+
+.men-bottom-left2 {
+    position: absolute;
+    bottom: 50px;
+    left: -90px;
+}
+
+.shop-women {
+    height:700px;
+    width: 100%;
+}
+
+.women-bottom-right {
+    position: absolute;
+    bottom: 110px;
+    right: -135px;
+}
+
+.women-bottom-right2 {
+    position: absolute;
+    bottom: 50px;
+    right: -60px;
+}
+
+.shop-font {
+    font-size: 50px;
+}
+
+.shop-font2 {
+    font-size: 30px;
+}
+
+.fa-caret-right {
+    font-size: 35px;
+}
+
+.right-rotate-top {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50px;
+}
+
+.left-rotate-bottom {
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 430px;
+}
+   
+
+.visuals-font {
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.art-font {
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+    left: 1400px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.monoton-font {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+
+.roboto-font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: black;
+}
+
+.cyber-yellow {
+    color: #ffd300;
+}
+
+.blue {
+    color: green;
+}
+
+.olive {
+    color: #bab86c;
+}
+
+.orange {
+    color: #ce954b;
+}
+
+.center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.border-radius {
+    border-radius: 30px;
+
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.card {
+    border: solid;
+    border-color: #ce954b;
+    border-radius: 0;
+    opacity: .9;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.iconic:hover {
+    text-decoration: none;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-resume {
+    text-align: center;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #ffd300;
+}
+
+footer {
+    margin: 0;
+    border-top: solid;
+    border-top-color: black;
+    background-color: #ffd300;
+    background-image: linear-gradient(white, #ffd300 75%);
+    padding-bottom: 15px;
+}
+
+/* Large View
+ */
+@media (min-width: 992px) {
+    .coursework-1 {
+        position: relative;
+        top: 20px;
+    }
+
+    .coursework-2 {
+        position: relative;
+        top: 40px;
+    }
+
+    footer {
+        padding-left: 300px;
+    }
+
+    /* .iconic-3 {
+        position: relative;
+        bottom: 115px;
+        right: 15px;
+    } */
+
+    .intro {
+        position: relative;
+        top: 150px;
+    }
+}
+
+/*Tablet View */
+@media only screen and (max-width: 756px) {
+    nav {
+        float: none;
+        width: auto;
+        height: 150px;
+        padding-top: 0.01em;
+        padding-bottom: 0.01em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-style: solid;
+        border-color: black;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 90px;
+        align-content: left;
+    }
+
+    nav ul {
+        padding: 0;
+        position: relative;
+        top: 30px;
+    }
+}
+
+/*Smartphone View */
+@media only all and (max-width: 576px) {
+    .jumbotron {
+        display: none;
+    }
+
+    .profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        height: 220px;
+        padding-top: 0.01em;
+        padding-bottom: 0.01em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-style: solid;
+        border-color: black;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 80px;
+        align-content: center;
+    }
+
+    nav ul {
+        padding: 0;
+        position: relative;
+        top: 20px;
+    }
+
+    .img-profile {
+        margin: 0;
+        position: relative;
+        top: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0;
+        position: relative;
+        right: 30px;
+    }
+
+    iframe {
+        margin: 0;
+        position: relative;
+        left: 78px
+    }
+
+}

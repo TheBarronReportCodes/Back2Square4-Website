@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jordan Barron</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Outside font link-->
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!--Javascipt-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="stylesheets/portfolio.css">
+    <!--My Javascript Link-->
+    <script src="javascript/validate.js"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/b8e32a1485.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Sidebar when large screen-->
+    <nav class="navbar navbar-color navbar-expand-sm fixed-top">
+        <!--Brand Image-->
+        <i class="fas fa-globe-americas"></i>
+        &nbsp; &nbsp;
+        <!--Brand Label-->
+        <a class="navbar-brand monoton-font black" href="#">Back2Square4</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link black roboto-font" href="#featuretteMen">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link black roboto-font" href="#featuretteWomen">Women</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link black roboto-font" href="#featuretteVisuals">Visuals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link black roboto-font" href="#featuretteAbout">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link black roboto-font" href="#featuretteContact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-item iconic-3">
+            <ul class="list-style">
+                <li>
+                    <a href="" target="_blank"> <i class="fab fa-instagram black"></i></a> &nbsp;
+                    <a href="" target="_blank"><i class="fab fa-twitter black"></i></a> &nbsp;
+                    <a href="" target="_blank"><i class="fab fa-soundcloud black"></i></a> &nbsp;
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="jumbotron">
+            <div class="intro">
+                <h1 class="white center roboto-font jumbo-font">Malik Wahid</h1>
+                <h4 class="white center roboto-font">Insert Quote</h4>
+            </div>
+        </div>
+        <!--Container class-->
+        <div class="container-fluid canvas-background">
+            <!--Featurette One (Men)-->
+            <a id="featuretteMen">
+                <div class="row featurette mt-3">
+                    <div class="col-md-2">
+                        <div class="monoton-font black right-rotate-top">Malik Wahid</div>
+                    </div>
+                    <div class="col-md-10">
+                        <img class="shop-men" src="images/ShopMen.jpg" alt="Shop Men">
+                        <div class="men-bottom-left roboto-font shop-font">Shop <span class="cyber-yellow">Men</span>
+                        </div>
+                        <div class="men-bottom-left2 roboto-font shop-font2">Discover <span class="cyber-yellow">Now
+                                <i class="fas fa-caret-right"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+
+            <hr class="featurette-divider">
+
+            <!--Featurette Two (Women)-->
+            <a id="featuretteWomen">
+                <div class="row featurette mt-3">
+                    <div class="col-md-10">
+                        <img class="shop-women" src="images/ShopWomen.jpg" alt="Shop Men">
+                        <div class="women-bottom-right roboto-font shop-font"><span class="cyber-yellow">Shop</span>
+                            Women</div>
+                        <div class="women-bottom-right2 roboto-font shop-font2"><span
+                                class="cyber-yellow">Discover</span> Now <i class="fas fa-caret-right"></i></div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="monoton-font black left-rotate-bottom">Back2Square4</div>
+                    </div>
+                </div>
+            </a>
+
+            <hr class="featurette-divider">
+
+            <!--Featurette Three (Visuals)-->
+            <a id="featuretteVisuals">
+                <span class="roboto-font visuals-font">Visuals</span>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/visual1.jpg" alt="Visual 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/visual2.jpg" alt="visual 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/visual3.jpg" alt="visual 3">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <a>
+                    <span class="roboto-font art-font">See More Art <i class="fas fa-caret-right"></i></span>
+                </a>
+
+
+            </a>
+
+            <hr class="featurette-divider">
+
+            <!--Featurette Six (Contact)-->
+            <a id="featuretteContact">
+                <div class="row featurette">
+                    <div class="col-md-3">
+                        <h2 class="featurette-heading center black roboto-font"> Contact
+                        </h2>
+                        <h5 class="center black roboto-font italic">- Let's get to work
+                        </h5>
+                        <p class="center"><i class="fas fa-envelope-square"></i> &nbsp; <a class="black iconic"
+                                href="mailto:">Insert email</a></p>
+                        <p class="center roboto-font">Instagram: &nbsp; <a href="" target="_blank"><i
+                                    class="fab fa-instagram black"></i></a></p>
+                        <p class="center roboto-font">Twitter: &nbsp; <a href="" target="_blank"><i
+                                    class="fab fa-twitter black"></i></a></p>
+                        <p class="center roboto-font">Soundcloud: &nbsp; <a href="" target="_blank"><i
+                                    class="fab fa-soundcloud black"></i></a></p>
+                    </div>
+                    <div class="col-md-9">
+                        <h2 class="featurette-heading center black roboto-font"> Subscribe
+                        </h2>
+                        <h5 class="center black roboto-font italic">- Will reach out within 2 business days
+                        </h5>
+                        <!--Form-->
+                        <div>
+                            <!--FormSpree form processor-->
+                            <form onsubmit="return validateForm();" action="" method="post">
+                                <div class="form-group">
+                                    <label for="myFName"> * First Name: </label>
+                                    <input type="text" class="form-control" placeholder="Enter first name" id="myFName"
+                                        name="myFName">
+                                    <div class="alert alert-danger" id="errorFName">Please enter your first name.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="myLName"> * Last Name: </label>
+                                    <input type="text" class="form-control" placeholder="Enter last name" id="myLName"
+                                        name="myLName">
+                                    <div class="alert alert-danger" id="errorLName">Please enter your last name.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="myEmail">* E-mail: </label>
+                                    <input type="email" class="form-control" placeholder="Enter email" id="myEmail"
+                                        name="myEmail">
+                                    <div class="alert alert-danger" id="errorEmail">Please enter an email address.</div>
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="myComments"> Comments: </label>
+                            <textarea id="myComments" class="form-control" placeholder="Comments" name="myComments"
+                                rows="2" cols="20"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        </a>
+
+        <footer>
+            <p class="float-right white roboto-font"><a href="#"><button type="button" class="btn btn-primary">Back to
+                        top</button></a></p>
+            <p class="copyright center black roboto-font">&copy;Back2Square4<br>
+
+        </footer>
+        </div>
+    </main>
+
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
